@@ -12,7 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 
-public class ExampleModClient.java implements ClientModInitializer {
+public class ExampleModClient implements ClientModInitializer {
     // Настройки (в тиках)
     private static final int SWAP_DELAY = 1; // через сколько тиков после удара мечом брать булаву
     private static final int HOLD_TICKS = 1; // сколько тиков держать булаву до возврата меча
